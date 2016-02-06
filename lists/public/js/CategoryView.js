@@ -6,7 +6,7 @@ window.CategoryView = Backbone.View.extend({
   },
 
   render: function() {
-    $(this.el).html("Hello");
+    $(this.el).html($(this.template).html());
     return this;
   }
 
